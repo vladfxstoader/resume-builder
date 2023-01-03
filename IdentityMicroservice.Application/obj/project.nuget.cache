@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I1YBOCw0rDc/4lRzoQHWvGiAFTIuW0B3B6qiakehL6kqTjz2tRkN4j0RovahAilZNqOgwLSeRfp8JQ2TEhuEGw==",
+  "dgSpecHash": "Pr7ScaGpAv11TXomy4fO6HunasFMcEYKJ9Nlmqy1IbRPTwn0LFqTZW4aa8qMwL0MmB2RJ0hxGCb/Tl49JXtW5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Application\\IdentityMicroservice.Application.csproj",
+  "projectFilePath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Application\\IdentityMicroservice.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\filip\\.nuget\\packages\\mailkit\\2.6.0\\mailkit.2.6.0.nupkg.sha512",
     "C:\\Users\\filip\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",

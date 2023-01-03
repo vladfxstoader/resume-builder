@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gn5yetUDlPFoEQID/SRodpndMiKDDrHf/hIuuD+R0jH5kxGwMpycHqZf5mQdyX9A4auj7EP7NWXlNAS44f2WWw==",
+  "dgSpecHash": "HU9JmZCCQi0Eu3OeyqHli3J3jBkR/ZjG333bzsoG3n8fvKWePeBpCAnGNz14iD6jqXQMnJrYfhX6qsAUFh73RA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Infrastructure\\IdentityMicroservice.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Infrastructure\\IdentityMicroservice.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\filip\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\filip\\.nuget\\packages\\mailkit\\2.6.0\\mailkit.2.6.0.nupkg.sha512",

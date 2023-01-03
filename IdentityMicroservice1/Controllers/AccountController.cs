@@ -5,7 +5,6 @@ using IdentityMicroservice.Application.Features.Auth.Login;
 
 using IdentityMicroservice.Application.ViewModels.AppInternal;
 using IdentityMicroservice.Infrastructure.Persistence.DbContexts.Identity;
-using IdentityMicroservice1.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -166,10 +165,10 @@ namespace IdentityMicroservice1.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [Authorize(AuthenticationSchemes = "Bearer")]
+        //[Authorize(AuthenticationSchemes = "Bearer")]
         [HttpGet]
         [Route("Linkedin-Crawler")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetUserProfileInfo([FromQuery] string profileUrl)
         {
             try

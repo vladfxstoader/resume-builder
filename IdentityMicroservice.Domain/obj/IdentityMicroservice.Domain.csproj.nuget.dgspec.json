@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj": {}
+    "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj": {
+    "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj",
         "projectName": "IdentityMicroservice.Domain",
-        "projectPath": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj",
+        "projectPath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj",
         "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\Source\\Repos\\IdentityMicroservice1\\IdentityMicroservice.Domain\\obj\\",
+        "outputPath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",

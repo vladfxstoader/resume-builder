@@ -10,3 +10,15 @@ C:\Users\filip\Source\Repos\IdentityMicroservice1\IdentityMicroservice.Domain\ob
 C:\Users\filip\Source\Repos\IdentityMicroservice1\IdentityMicroservice.Domain\obj\Debug\net5.0\refint\IdentityMicroservice.Domain.dll
 C:\Users\filip\Source\Repos\IdentityMicroservice1\IdentityMicroservice.Domain\obj\Debug\net5.0\IdentityMicroservice.Domain.pdb
 C:\Users\filip\Source\Repos\IdentityMicroservice1\IdentityMicroservice.Domain\obj\Debug\net5.0\ref\IdentityMicroservice.Domain.dll
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\bin\Debug\net5.0\IdentityMicroservice.Domain.deps.json
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\bin\Debug\net5.0\IdentityMicroservice.Domain.dll
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\bin\Debug\net5.0\IdentityMicroservice.Domain.pdb
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\obj\Debug\net5.0\IdentityMicroservice.Domain.csproj.AssemblyReference.cache
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\obj\Debug\net5.0\IdentityMicroservice.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\obj\Debug\net5.0\IdentityMicroservice.Domain.AssemblyInfoInputs.cache
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\obj\Debug\net5.0\IdentityMicroservice.Domain.AssemblyInfo.cs
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\obj\Debug\net5.0\IdentityMicroservice.Domain.csproj.CoreCompileInputs.cache
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\obj\Debug\net5.0\IdentityMicroservice.Domain.dll
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\obj\Debug\net5.0\refint\IdentityMicroservice.Domain.dll
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\obj\Debug\net5.0\IdentityMicroservice.Domain.pdb
+C:\Users\filip\Source\Repos\proiect-inginerie-software-runtime-terror1\IdentityMicroservice.Domain\obj\Debug\net5.0\ref\IdentityMicroservice.Domain.dll

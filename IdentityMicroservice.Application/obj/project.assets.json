@@ -5745,11 +5745,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Application\\IdentityMicroservice.Application.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Application\\IdentityMicroservice.Application.csproj",
       "projectName": "IdentityMicroservice.Application",
-      "projectPath": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Application\\IdentityMicroservice.Application.csproj",
+      "projectPath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Application\\IdentityMicroservice.Application.csproj",
       "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Application\\obj\\",
+      "outputPath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5767,8 +5767,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj": {
-              "projectPath": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj"
+            "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj": {
+              "projectPath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj"
             }
           }
         }

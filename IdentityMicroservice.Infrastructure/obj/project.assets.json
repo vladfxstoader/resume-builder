@@ -7405,11 +7405,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Infrastructure\\IdentityMicroservice.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Infrastructure\\IdentityMicroservice.Infrastructure.csproj",
       "projectName": "IdentityMicroservice.Infrastructure",
-      "projectPath": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Infrastructure\\IdentityMicroservice.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Infrastructure\\IdentityMicroservice.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7427,8 +7427,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Application\\IdentityMicroservice.Application.csproj": {
-              "projectPath": "C:\\Users\\filip\\source\\repos\\IdentityMicroservice1\\IdentityMicroservice.Application\\IdentityMicroservice.Application.csproj"
+            "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Application\\IdentityMicroservice.Application.csproj": {
+              "projectPath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Application\\IdentityMicroservice.Application.csproj"
             }
           }
         }
