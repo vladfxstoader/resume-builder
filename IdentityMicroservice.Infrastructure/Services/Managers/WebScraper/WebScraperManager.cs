@@ -89,12 +89,12 @@ namespace IdentityMicroservice.Infrastructure.Services.Managers.WebScraper
                     
                     case "div":
                         LinkedInExperienceDTO experience;
+                        string? role = titileSection.FindElement(By.XPath("./div[1]/div/div/span/span[1]")).GetAttribute("innerText");
+                        string? experienceInterval = titileSection.FindElement(By.XPath("./div[1]/div/span[2]/span[1]")).GetAttribute("innerText");
+                        string? workLocation = titileSection.FindElement(By.XPath("./div[1]/div/span[3]/span[1]")).GetAttribute("innerText");
+                        string? employerName = titileSection.FindElement(By.XPath("./div[1]/div/span[1]/span[1]")).GetAttribute("innerText");
                         try
                         {
-                            string? role = titileSection.FindElement(By.XPath("./div[1]/div/div/span/span[1]")).GetAttribute("innerText");
-                            string? experienceInterval = titileSection.FindElement(By.XPath("./div[1]/div/span[2]/span[1]")).GetAttribute("innerText");
-                            string? workLocation = titileSection.FindElement(By.XPath("./div[1]/div/span[3]/span[1]")).GetAttribute("innerText");
-                            string? employerName = titileSection.FindElement(By.XPath("./div[1]/div/span[1]/span[1]")).GetAttribute("innerText");
                             string? experienceDescription = titileSection.FindElement(By.XPath("./div[2]/ul/li/div/ul/li/div/div/div/span[1]")).GetAttribute("innerText");
 
                             experience = new LinkedInExperienceDTO
@@ -111,10 +111,10 @@ namespace IdentityMicroservice.Infrastructure.Services.Managers.WebScraper
 
                             experience = new LinkedInExperienceDTO
                             {
-                                Employer = null,
-                                Role = null,
-                                Interval = null,
-                                Location = null,
+                                Employer = employerName,
+                                Role = role,
+                                Interval = experienceInterval,
+                                Location = workLocation,
                                 Description = null
                             };
                             
