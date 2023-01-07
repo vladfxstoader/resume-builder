@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import ProfileLink from './ProfileLink'
 
 function Homepage() {
     var flag = localStorage.getItem("isAuthenticated");
@@ -7,7 +8,7 @@ function Homepage() {
     <div className='homepage'>
     <h1>Home</h1>
     {flag == "true" ?
-    <h1>You are only seeing this if you are logged in.</h1>
+    <ProfileLink/>
     : 
     <div></div>
   }

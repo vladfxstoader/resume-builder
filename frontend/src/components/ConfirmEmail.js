@@ -22,7 +22,7 @@ function Login() {
            .then(response => {
              console.log(response)
                 if (response.status != 200) {
-                    alert("There was a problem with the registration. Please try again.");
+                    alert("There was a problem with the confirmation. Please try again.");
                   }
                   console.log(response);
                   setIsSubmitted(true);
@@ -31,7 +31,7 @@ function Login() {
             .catch (function (error) {
                 if (error.response) {
                   console.log(error.response.data);
-                  alert("There was a problem with the registration. Please try again.\n" + "Error: " + error.response.data);
+                  alert("There was a problem with the confirmation. Please try again.\n" + "Error: " + error.response.data);
                 }
             });
       };
