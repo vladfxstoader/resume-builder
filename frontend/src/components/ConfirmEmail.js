@@ -18,7 +18,7 @@ function Login() {
             confirmationToken: token.value,
           }
        
-        axios.post('https://localhost:44388/api/Account/email-confirm', object)
+        axios.post('https://localhost:5001/api/Account/email-confirm', object)
            .then(response => {
              console.log(response)
                 if (response.status != 200) {

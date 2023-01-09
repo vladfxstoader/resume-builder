@@ -23,7 +23,7 @@ function Login() {
             phoneNumberCountryPrefix: pprefix.value
           }
        
-        axios.post('https://localhost:44388/api/Account/register', object)
+        axios.post('https://localhost:5001/api/Account/register', object)
            .then(response => {
              console.log(response)
                 if (response.status != 200) {
