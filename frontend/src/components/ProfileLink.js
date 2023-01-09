@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { useState } from 'react'
 import axios from 'axios'
 import { Link, useNavigate } from "react-router-dom"
+import FirstCVTemplate from './FirstCVTemplate';
 
 function ProfileLink() {
 
@@ -44,8 +45,7 @@ function ProfileLink() {
             localStorage.setItem("profilePic", data.profilepic);
             localStorage.setItem("currentEmployer", data.curremp);
             localStorage.setItem("summary", data.summary);
-            localStorage.setItem("experiences", response.data.experiences);
-            console.log(data);
+            localStorage.setItem("experiences", JSON.stringify(response.data.experiences));
             setIsSubmitted(true);
             window.location.reload(false);
         }).catch(function(error) {
@@ -61,7 +61,7 @@ function ProfileLink() {
           <form onSubmit={handleSubmit}>
             <div className="input-container">
               <label>Profile link</label>
-              <input type="text" defaultalue= {localStorage.getItem("profileLink")} name="plink" required />
+              <input type="text" defaultalue={localStorage.getItem("profileLink")} name="plink" required />
             </div>
             <div className="button-container">
               <input type="submit" />
@@ -90,7 +90,7 @@ function ProfileLink() {
         <br></br>
         <br></br>
         {renderForm}
-        {renderData}
+        <FirstCVTemplate />
       </div>
     </div>
   )

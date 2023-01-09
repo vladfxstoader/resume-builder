@@ -1,10 +1,113 @@
 .App {
   text-align: center;
   background-color: #282c34;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 html, body, .home, .homepage>div {
-  height: 100%
+  height: 100%;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.container {  display: grid;
+  position: relative;
+  color: black;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "picture title title"
+    "summary summary summary"
+    "experiences experiences experiences";
+}
+
+.picture { grid-area: picture; }
+
+.title { grid-area: title;
+  text-align: left; }
+
+.summary { grid-area: summary; 
+  text-align: left;
+width: 90%;
+margin-top: -130px;
+margin-left: 27px;}
+
+.experiences { grid-area: experiences; 
+  text-align: left;
+  width: 90%;
+  margin-top: - 2000px;
+  margin-left: 27px;}
+
+
+.resume1 {
+  color: black;
+  border: 10px solid black;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 210mm; 
+  height: 297mm;
+}
+
+.photo1 {
+  height: 150px;
+  width: 150px;
+  margin-top: 25px;
+}
+
+.resumeTitle1 {
+  color: #808080;
+}
+
+.interval1 {
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+
+.resumeContent1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0%;
+  margin-left: 50px;
+}
+
+.summary1 {
+  width: 65%;
+  margin-top: -50px;
+  font-size: medium;
+}
+
+.role1{
+  margin-left: -17px;
+}
+
+.experiences1 {
+  position:relative;
+  margin-top: -20px;
+  margin-left: -200px;
+  color: #595959;
+  width: 90%;
+}
+
+.experiences1 > h1 {
+  margin-bottom: -15px;
+}
+
+.employer1 {
+  margin-top: -23px;
+}
+
+.listexperiences1 {
+  list-style-type: none;
+  color: black;
+}
+
+.name1 {
+  color: #595959;
+
+  margin-top: -20px;
 }
 
 .homepage {
