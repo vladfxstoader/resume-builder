@@ -10,7 +10,7 @@ function Homepage() {
     {flag == "true" ?
     <ProfileLink/>
     : 
-    <div></div>
+    <div>Please login to see the content of the app.</div>
   }
   </div>
   )
