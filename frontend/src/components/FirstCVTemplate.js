@@ -51,7 +51,7 @@ class FirstCVTemplate extends Component {
             </div>
             <div class="experiences">
                 <h3>Experience</h3>
-                {this.listExperiences}
+                {localStorage.getItem("experiences") === null ? {} : this.listExperiences}
             </div>
         </div>
 
