@@ -26,10 +26,10 @@ class FirstCVTemplate extends Component {
         (element) => {
             return (
                 <ul className='listexperiences1'>
-                    <h4><li className='role1'>• {element.role}</li></h4>
+                    <h4><li className='role1'>- {element.role}</li></h4>
                     <h4><li className='employer1'>{element.employer}</li></h4>
                     <h4><li className='interval1'>{element.interval}, {element.location}</li></h4>
-                    <li>{element.description}</li>
+                    <li className='description1'>{element.description}</li>
                     <br></br>
                 </ul>
             )
@@ -38,14 +38,16 @@ class FirstCVTemplate extends Component {
 
     renderData = (
         <div class="container">
+            <div class="introduction">
             <div class="picture">{localStorage.getItem("profilePic") === null ? {} : <img className="photo1" src={localStorage.getItem("profilePic")}></img>}</div>
             <div class="title">
                 <h3 className='resumeTitle1'>RESUME</h3>
                 <h1 className='name1'>{localStorage.getItem("firstName") === null ? {} : <p>{localStorage.getItem("firstName")} {localStorage.getItem("lastName")}</p>}</h1>
             </div>
+            </div>
             <div class="summary">
                 <h3>Summary</h3>
-                {localStorage.getItem("summary") === null ? {} : <p>{localStorage.getItem("summary")}</p>}
+                {localStorage.getItem("summary") === null ? {} : localStorage.getItem("summary")}
             </div>
             <div class="experiences">
                 <h3>Experience</h3>
