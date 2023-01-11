@@ -4,7 +4,8 @@ import axios from 'axios'
 import { Link, useNavigate } from "react-router-dom"
 import { PDFExport } from '@progress/kendo-react-pdf';
 
-class FirstCVTemplate extends Component {
+
+class SecondCVTemplate extends Component {
     resume;
     experiences;
 
@@ -25,11 +26,10 @@ class FirstCVTemplate extends Component {
     listExperiences = this.experiences.map(
         (element) => {
             return (
-                <ul className='listexperiences1'>
-                    <h4><li className='role1'>- {element.role}</li></h4>
-                    <h4><li className='employer1'>{element.employer}</li></h4>
-                    <h4><li className='interval1'>{element.interval}, {element.location}</li></h4>
-                    <li className='description1'>{element.description}</li>
+                <ul className='listexperiences2'>
+                    <h4><li className='role2'>{element.role}, {element.employer} </li></h4>
+                    <h4><li className='interval2'>{element.interval}, {element.location}</li></h4>
+                    <li className='description2'>{element.description}</li>
                     <br></br>
                 </ul>
             )
@@ -37,21 +37,26 @@ class FirstCVTemplate extends Component {
     )
 
     renderData = (
-        <div class="container">
-            <div class="introduction">
-            <div class="picture">{localStorage.getItem("profilePic") === null ? {} : <img className="photo1" src={localStorage.getItem("profilePic")}></img>}</div>
-            <div class="title">
-                <h3 className='resumeTitle1'>RESUME</h3>
-                <h1 className='name1'>{localStorage.getItem("firstName") === null ? {} : <p>{localStorage.getItem("firstName")} {localStorage.getItem("lastName")}</p>}</h1>
+        <div class="container2">
+            <div class="column left">
+                <div class="introduction2">
+                    <div class="picture2">{localStorage.getItem("profilePic") === null ? {} : <img className="photo2" src={localStorage.getItem("profilePic")}></img>}</div>
+                    <div class="title2">
+                        <h3 className='resumeTitle2'>- RESUME -</h3>
+                        <h1 className='lastName2'><p>{localStorage.getItem("lastName")}</p></h1>
+                        <h2 className='firstName2'>{localStorage.getItem("firstName") === null ? {} : <p>{localStorage.getItem("firstName")}</p>}</h2>
+                    </div>
+                </div>
             </div>
-            </div>
-            <div class="summary">
-                <h3>Summary</h3>
-                {localStorage.getItem("summary") === null ? {} : localStorage.getItem("summary")}
-            </div>
-            <div class="experiences">
-                <h3>Experience</h3>
-                {localStorage.getItem("experiences") === null ? {} : this.listExperiences}
+            <div class="column right">
+                <div class="summary2">
+                    <h3>Summary</h3>
+                    <p>{localStorage.getItem("summary") === null ? {} : localStorage.getItem("summary")}</p>
+                </div>
+                <div class="experiences2">
+                    <h3>Experience</h3>
+                    <p>{localStorage.getItem("experiences") === null ? {} : this.listExperiences}</p>
+                </div>
             </div>
         </div>
 
@@ -62,7 +67,7 @@ class FirstCVTemplate extends Component {
                 {!this.canvLoaded && <canvas ref="canvas" style={{ display: 'none' }}>
                 </canvas>}
                 <PDFExport paperSize={'Letter'}
-                    fileName="resume-template1.pdf"
+                    fileName="resume-template2.pdf"
                     title="Resume"
                     subject=""
                     keywords=""
@@ -85,4 +90,4 @@ class FirstCVTemplate extends Component {
     }
 }
 
-export default FirstCVTemplate;
+export default SecondCVTemplate;
