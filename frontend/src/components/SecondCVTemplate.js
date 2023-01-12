@@ -82,6 +82,8 @@ class SecondCVTemplate extends Component {
                         margin: 'auto',
                         overflowX: 'hidden',
                         overflowY: 'hidden',
+                        fontFamily: "Georgia",
+                        fontFamily: "Verdana"
                     }}>{this.renderData}
                     </div>
                 </PDFExport>
