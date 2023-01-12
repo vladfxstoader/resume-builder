@@ -4,8 +4,44 @@ import axios from 'axios'
 import { Link, useNavigate } from "react-router-dom"
 import FirstCVTemplate from './FirstCVTemplate';
 import SecondCVTemplate from './SecondCVTemplate';
+import ThirdCVTemplate from './ThirdCVTemplate';
 
 function ProfileLink() {
+
+    var template1 = false;
+    var template2 = false;
+    var template3 = false;
+
+    var [template1, setTemplate1] = useState(false);
+    var [template2, setTemplate2] = useState(false);
+    var [template3, setTemplate3] = useState(false);
+
+    const handleClick1 = event => {
+      // 👇️ toggle shown state
+      setTemplate1(true);
+      setTemplate2(false);
+      setTemplate3(false);      
+      // 👇️ or simply set it to true
+      // setIsShown(true);
+    };
+
+    const handleClick2 = event => {
+      // 👇️ toggle shown state
+      setTemplate1(false);
+      setTemplate2(true);
+      setTemplate3(false);      
+      // 👇️ or simply set it to true
+      // setIsShown(true);
+    };
+
+    const handleClick3 = event => {
+      // 👇️ toggle shown state
+      setTemplate1(false);
+      setTemplate2(false);
+      setTemplate3(true);      
+      // 👇️ or simply set it to true
+      // setIsShown(true);
+    };
 
     const [reqData, setReqData] = useState(null);
     const [isSubmitted, setIsSubmitted] = useState(false);
@@ -91,8 +127,13 @@ function ProfileLink() {
         <br></br>
         <br></br>
         {renderForm}
-        <FirstCVTemplate />
-        {/* <SecondCVTemplate /> */}
+        <h3>You can choose one of the following templates: </h3>
+        <button onClick={handleClick1}>Template 1</button>
+        <button onClick={handleClick2}>Template 2</button>
+        <button onClick={handleClick3}>Template 3</button>
+        {template1 && <FirstCVTemplate />}
+        {template2 && <SecondCVTemplate />}
+        {template3 && <ThirdCVTemplate />}
       </div>
     </div>
   )

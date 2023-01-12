@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom"
 import { PDFExport } from '@progress/kendo-react-pdf';
 
 
+
 class SecondCVTemplate extends Component {
     resume;
     experiences;
@@ -80,7 +81,7 @@ class SecondCVTemplate extends Component {
                         boxShadow: '5px 5px 5px black',
                         margin: 'auto',
                         overflowX: 'hidden',
-                        overflowY: 'hidden'
+                        overflowY: 'hidden',
                     }}>{this.renderData}
                     </div>
                 </PDFExport>

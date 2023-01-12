@@ -29,7 +29,7 @@ class ThirdCVTemplate extends Component {
                 <ul className='listexperiences3'>
                     <h4 className='roleEmployer3'>{element.role}, {element.employer}</h4>
                     <h4 className='interval3'>{element.interval}, {element.location}</h4>
-                    <h4 className='description3'>{element.description}</h4>
+                    <div className='description3'>{element.description}</div>
                 </ul>
             )
         }
