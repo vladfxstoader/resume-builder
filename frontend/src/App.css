@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .App {
   text-align: center;
   background-color: #282c34;
@@ -230,4 +232,98 @@ html, body, .home, .homepage>div {
   background-color: rgb(246, 246, 241);
   color: black;
   font-family: "Georgia", serif;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.photo3 {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: 10px solid #390638;
+	box-shadow: 6px 7px 9px 5px #5A0B57;
+  margin-bottom: 20px;
+	margin-left: 60px;
+}
+
+.name3 {
+  padding: 80px 0px 60px 55px;
+	text-align: center;
+	letter-spacing: 1px;
+  margin-top: -20px;
+  color: #000000;
+}
+
+.resumeBox{
+	position: relative;
+}
+
+.heading{
+	background-color: #CCFDE8;
+	padding: 1px;
+	color: #390638;
+  font-weight: bold;
+}
+
+
+.experiences3 {
+  padding-left: 4vh;
+  text-align: justify;
+  color: black;
+  padding-right: 4vh;
+  font-size: small;
+}
+
+.summary3 {
+  padding-left: 4vh;
+  text-align: justify;
+  color: black;
+  padding-right: 4vh;
+  font-size: small;
+  margin-top: -30px;
+}
+
+.summary3 > h3 , .experiences3 > h3{
+  font-size: large;
+  padding: 0%;
+  color: #390638;
+  margin: 0%;
+  margin-top: 0.5vh;
+  margin-bottom: 1vh;
+}
+.left3{
+	background-color: #390638;
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+.right3{
+	width: 450px;
+	float: left;
+}
+
+.roleEmployer3{
+  font-size: small;
+  color: rgb(43, 4, 35);
+}
+
+.interval3 {
+  font-size: smaller;
+  color: rgb(198, 75, 173);
+}
+
+.description3{
+  color: black;
+  font-size: small;
+}
+
+.listexperiences3 > h4 {
+  margin-bottom: 1px;
+  margin-top: -1px;
 }
