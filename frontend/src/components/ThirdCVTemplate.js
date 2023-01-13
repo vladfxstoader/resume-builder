@@ -60,6 +60,10 @@ class ThirdCVTemplate extends Component {
                 <h3>Work experience</h3>
                 {localStorage.getItem("experiences") === null ? {} : this.listExperiences}
             </div>
+            {localStorage.getItem("useProjects") == 'true' && <div class="projects3">
+                    <h3>Projects</h3>
+                    {localStorage.getItem("projects")}
+                </div>}
             </div>
         </div>
 

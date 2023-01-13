@@ -58,6 +58,10 @@ class SecondCVTemplate extends Component {
                     <h3>Experience</h3>
                     <p>{localStorage.getItem("experiences") === null ? {} : this.listExperiences}</p>
                 </div>
+                {localStorage.getItem("useProjects") == 'true' && <div class="projects2">
+                    <h3>Projects</h3>
+                    <p>{localStorage.getItem("projects")}</p>
+                </div>}
             </div>
         </div>
 

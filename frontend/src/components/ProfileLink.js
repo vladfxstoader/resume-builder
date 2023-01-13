@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom"
 import FirstCVTemplate from './FirstCVTemplate';
 import SecondCVTemplate from './SecondCVTemplate';
 import ThirdCVTemplate from './ThirdCVTemplate';
+import AddProjects from './AddProjects';
 
 function ProfileLink() {
 
@@ -12,7 +13,7 @@ function ProfileLink() {
     var template2 = false;
     var template3 = false;
 
-    var [template1, setTemplate1] = useState(false);
+    var [template1, setTemplate1] = useState(true);
     var [template2, setTemplate2] = useState(false);
     var [template3, setTemplate3] = useState(false);
 
@@ -98,7 +99,7 @@ function ProfileLink() {
           <form onSubmit={handleSubmit}>
             <div className="input-container">
               <label>Profile link</label>
-              <input type="text" defaultalue={localStorage.getItem("profileLink")} name="plink" required />
+              <input type="text" defaultValue={localStorage.getItem("profileLink")} name="plink" required />
             </div>
             <div className="button-container">
               <input type="submit" />
@@ -107,16 +108,6 @@ function ProfileLink() {
           <br></br>
         </div>
       );
-
-  const renderData = (
-    <div>
-      {localStorage.getItem("firstName") === null ? <p></p> : <p>First name: </p>} {localStorage.getItem("firstName")}<br></br>
-      {localStorage.getItem("lastName") === null ? <p></p> : <p>Last name: </p>} {localStorage.getItem("lastName")}<br></br>
-      {localStorage.getItem("currentEmployer") === null ? <p></p> : <p>Current employer: </p>} {localStorage.getItem("currentEmployer")}<br></br>
-      {localStorage.getItem("summary") === null ? <p></p> : <p>Summary: </p>} {localStorage.getItem("summary")}<br></br>
-      {localStorage.getItem("profilePic") === null ? <p></p> : <p><img src = {localStorage.getItem("profilePic")}></img></p>} <br></br>
-    </div>
-  )
       
   return (
     <div className='homepage'>
@@ -127,6 +118,7 @@ function ProfileLink() {
         <br></br>
         <br></br>
         {renderForm}
+        <AddProjects />
         <h3>You can choose one of the following templates: </h3>
         <button onClick={handleClick1}>Template 1</button>
         <button onClick={handleClick2}>Template 2</button>

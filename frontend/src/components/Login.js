@@ -34,6 +34,8 @@ function Login() {
         localStorage.setItem("currentEmployer", "");
         localStorage.setItem("summary", "");
         localStorage.setItem("experiences", JSON.stringify([]));
+        localStorage.setItem("projects", "");
+        localStorage.setItem("useProjects", false);
         setIsSubmitted(true);
         window.location.pathname = "/";
       })

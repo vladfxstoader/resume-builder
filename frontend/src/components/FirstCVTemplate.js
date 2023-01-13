@@ -53,6 +53,10 @@ class FirstCVTemplate extends Component {
                 <h3>Experience</h3>
                 {localStorage.getItem("experiences") === null ? {} : this.listExperiences}
             </div>
+            {localStorage.getItem("useProjects") == 'true' && <div class="projects">
+                    <h3>Projects</h3>
+                    {localStorage.getItem("projects")}
+                </div>}
         </div>
 
     )
