@@ -24,7 +24,7 @@ class SecondCVTemplate extends Component {
 
     experiences = JSON.parse(localStorage.getItem("experiences"));
 
-    listExperiences = this.experiences.map(
+    listExperiences = this.experiences === null ? {} : this.experiences.map(
         (element) => {
             return (
                 <ul className='listexperiences2'>
@@ -41,22 +41,22 @@ class SecondCVTemplate extends Component {
         <div class="container2">
             <div class="column left">
                 <div class="introduction2">
-                    <div class="picture2">{localStorage.getItem("profilePic") === null ? {} : <img className="photo2" src={localStorage.getItem("profilePic")}></img>}</div>
+                    <div class="picture2">{localStorage.getItem("profilePic") === null ? "" : <img className="photo2" src={localStorage.getItem("profilePic")}></img>}</div>
                     <div class="title2">
                         <h3 className='resumeTitle2'>- RESUME -</h3>
                         <h1 className='lastName2'><p>{localStorage.getItem("lastName")}</p></h1>
-                        <h2 className='firstName2'>{localStorage.getItem("firstName") === null ? {} : <p>{localStorage.getItem("firstName")}</p>}</h2>
+                        <h2 className='firstName2'>{localStorage.getItem("firstName") === null ? "" : <p>{localStorage.getItem("firstName")}</p>}</h2>
                     </div>
                 </div>
             </div>
             <div class="column right">
                 <div class="summary2">
                     <h3>Summary</h3>
-                    <p>{localStorage.getItem("summary") === null ? {} : localStorage.getItem("summary")}</p>
+                    <p>{localStorage.getItem("summary") === null ? "" : localStorage.getItem("summary")}</p>
                 </div>
                 <div class="experiences2">
                     <h3>Experience</h3>
-                    <p>{localStorage.getItem("experiences") === null ? {} : this.listExperiences}</p>
+                    <p>{localStorage.getItem("experiences") === null ? "" : this.listExperiences}</p>
                 </div>
                 {localStorage.getItem("useProjects") == 'true' && <div class="projects2">
                     <h3>Projects</h3>
@@ -68,7 +68,7 @@ class SecondCVTemplate extends Component {
     )
     render() {
         return (
-            <div style={{ height: '85vh', width: '50vw', paddingTop: 20 }}>
+            <div data-testid = "template-2" style={{ height: '85vh', width: '50vw', paddingTop: 20 }}>
                 {!this.canvLoaded && <canvas ref="canvas" style={{ display: 'none' }}>
                 </canvas>}
                 <PDFExport paperSize={'Letter'}

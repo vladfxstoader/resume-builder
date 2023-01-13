@@ -23,7 +23,7 @@ class ThirdCVTemplate extends Component {
 
     experiences = JSON.parse(localStorage.getItem("experiences"));
 
-    listExperiences = this.experiences.map(
+    listExperiences =  this.experiences === null ? {} : this.experiences.map(
         (element) => {
             return (
                 <ul className='listexperiences3'>
@@ -39,7 +39,7 @@ class ThirdCVTemplate extends Component {
         <div class="container3">
             <div class="left3">
                 <br></br>
-                    <div class="picture3">{localStorage.getItem("profilePic") === null ? {} : <img className="photo3" src={localStorage.getItem("profilePic")}></img>}</div>
+                    <div class="picture3">{localStorage.getItem("profilePic") === null ? "" : <img className="photo3" src={localStorage.getItem("profilePic")}></img>}</div>
                     <div class="resumeBox">
                         <div class = "heading">
                             <p>Resume</p>
@@ -49,16 +49,16 @@ class ThirdCVTemplate extends Component {
 
             <div class="right3">
                 <div class="title3">
-                <h1 className='name3'>{localStorage.getItem("firstName") === null ? {} : <p>{localStorage.getItem("firstName")} {localStorage.getItem("lastName")}</p>}</h1>
+                <h1 className='name3'>{localStorage.getItem("firstName") === null ? "" : <p>{localStorage.getItem("firstName")} {localStorage.getItem("lastName")}</p>}</h1>
                 </div>
 
                 <div class="summary3">
                 <h3>Summary</h3>
-                {localStorage.getItem("summary") === null ? {} : localStorage.getItem("summary")}
+                {localStorage.getItem("summary") === null ? "" : localStorage.getItem("summary")}
             </div>
             <div class="experiences3">
                 <h3>Work experience</h3>
-                {localStorage.getItem("experiences") === null ? {} : this.listExperiences}
+                {localStorage.getItem("experiences") === null ? "" : this.listExperiences}
             </div>
             {localStorage.getItem("useProjects") == 'true' && <div class="projects3">
                     <h3>Projects</h3>
@@ -70,7 +70,7 @@ class ThirdCVTemplate extends Component {
     )
     render() {
         return (
-            <div style={{ height: '85vh', width: '50vw', paddingTop: 20 }}>
+            <div data-testid = "template-3" style={{ height: '85vh', width: '50vw', paddingTop: 20 }}>
                 {!this.canvLoaded && <canvas ref="canvas" style={{ display: 'none' }}>
                 </canvas>}
                 <PDFExport paperSize={'Letter'}

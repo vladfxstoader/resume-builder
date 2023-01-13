@@ -21,8 +21,8 @@ class FirstCVTemplate extends Component {
     }
 
     experiences = JSON.parse(localStorage.getItem("experiences"));
-
-    listExperiences = this.experiences.map(
+ 
+    listExperiences = this.experiences === null ? {} : this.experiences.map(
         (element) => {
             return (
                 <ul className='listexperiences1'>
@@ -39,19 +39,19 @@ class FirstCVTemplate extends Component {
     renderData = (
         <div class="container">
             <div class="introduction">
-            <div class="picture">{localStorage.getItem("profilePic") === null ? {} : <img className="photo1" src={localStorage.getItem("profilePic")}></img>}</div>
+            <div class="picture">{localStorage.getItem("profilePic") === null ? "" : <img className="photo1" src={localStorage.getItem("profilePic")}></img>}</div>
             <div class="title">
                 <h3 className='resumeTitle1'>RESUME</h3>
-                <h1 className='name1'>{localStorage.getItem("firstName") === null ? {} : <p>{localStorage.getItem("firstName")} {localStorage.getItem("lastName")}</p>}</h1>
+                <h1 className='name1'>{localStorage.getItem("firstName") === null ? "" : <p>{localStorage.getItem("firstName")} {localStorage.getItem("lastName")}</p>}</h1>
             </div>
             </div>
             <div class="summary">
                 <h3>Summary</h3>
-                {localStorage.getItem("summary") === null ? {} : localStorage.getItem("summary")}
+                {localStorage.getItem("summary") === null ? "" : localStorage.getItem("summary")}
             </div>
             <div class="experiences">
                 <h3>Experience</h3>
-                {localStorage.getItem("experiences") === null ? {} : this.listExperiences}
+                {localStorage.getItem("experiences") === null ? "" : this.listExperiences}
             </div>
             {localStorage.getItem("useProjects") == 'true' && <div class="projects">
                     <h3>Projects</h3>
@@ -62,7 +62,7 @@ class FirstCVTemplate extends Component {
     )
     render() {
         return (
-            <div style={{ height: '85vh', width: '50vw', paddingTop: 20 }}>
+            <div data-testid = "template-1" style={{ height: '85vh', width: '50vw', paddingTop: 20 }}>
                 {!this.canvLoaded && <canvas ref="canvas" style={{ display: 'none' }}>
                 </canvas>}
                 <PDFExport paperSize={'Letter'}
