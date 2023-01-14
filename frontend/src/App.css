@@ -169,7 +169,7 @@ html, body, .home, .homepage>div {
 }
 
 .introduction2 {
-  background-color: rgb(72, 164, 72);
+  background-color: rgb(86, 74, 154);
   height: 100%;
   
 }
@@ -185,10 +185,6 @@ html, body, .home, .homepage>div {
   font-family: "DejaVu Sans", "Georgia", serif;
 }
 
-.resumeTitle2 {
-  letter-spacing: 5px;
-}
-
 .firstName2 {
   font-size: 20px;
 }
@@ -202,9 +198,7 @@ html, body, .home, .homepage>div {
   margin-left: 15px;
   margin-right: 15px;
 }
-.summary2 > h3, .experiences2 > h3, .projects2 > h3 { 
-  letter-spacing: 10px;
-}
+
 
 .summary2 > p, .experiences2 > p, .projects2 > p { 
   font-size: 15px;
