@@ -37,9 +37,10 @@ namespace IdentityMicroservice.Application
                 opt.AddPolicy(name: _policyName, builder =>
                 {
                     builder
-                        .WithOrigins("https://localhost:4200")
+                        .WithOrigins("http://localhost:3000")
                         .AllowAnyHeader()
                         .AllowAnyMethod()
+                        .AllowAnyOrigin()
                         .WithExposedHeaders(CustomHeader.XTokenExpired);
                 });
             });

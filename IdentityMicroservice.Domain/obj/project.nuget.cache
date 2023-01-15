@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "Yi1cd2WWVC1MFufTyXnQDitP1zH3CQdO8WBUFnntpGmkqn6UqFnfE2ohbsafHmJzRCxwAgCuZjP7RZSIB56qiw==",
+  "dgSpecHash": "JNl6BRsB1mQ151RnakJ274P/5h7uy3ubqXMJkpoeypYBHA4EmG4ab1OunZexgHxaKQKF8ufIqUHJaPFpOrJM5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\filip\\Source\\Repos\\proiect-inginerie-software-runtime-terror1\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\Unibuc-FMI\\proiect-inginerie-software-runtime-terror\\IdentityMicroservice.Domain\\IdentityMicroservice.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.13\\microsoft.aspnetcore.cryptography.internal.5.0.13.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.13\\microsoft.aspnetcore.cryptography.keyderivation.5.0.13.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.13\\microsoft.extensions.identity.core.5.0.13.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.13\\microsoft.extensions.identity.stores.5.0.13.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.13\\microsoft.aspnetcore.cryptography.internal.5.0.13.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.13\\microsoft.aspnetcore.cryptography.keyderivation.5.0.13.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.13\\microsoft.extensions.identity.core.5.0.13.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.13\\microsoft.extensions.identity.stores.5.0.13.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
