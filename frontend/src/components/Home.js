@@ -6,11 +6,10 @@ function Homepage() {
     var flag = localStorage.getItem("isAuthenticated");
   return (
     <div className='homepage'>
-    <h1>Home</h1>
     {flag == "true" ?
     <ProfileLink/>
     : 
-    <div>Please login to see the content of the app.</div>
+    <h1 className='title-home'>Please login to see the content of the app.</h1>
   }
   </div>
   )

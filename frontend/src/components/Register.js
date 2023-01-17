@@ -78,7 +78,7 @@ function Login() {
             </div>
             <br></br>
             <div className="button-container">
-              <input type="submit" />
+              <input type="submit"  value="Register"/>
             </div>
           </form>
           <br></br>
@@ -91,9 +91,9 @@ function Login() {
       var flag = localStorage.getItem("isAuthenticated");
   
   return (
-    <div className='homepage'>
+    <div className='registerpage'>
     <div className="login-form">
-        <h1 className="title">Register</h1>
+        <h1 className="title-login">Register</h1>
         {isSubmitted ? navigate("/") : renderForm}
       </div>
     </div>
