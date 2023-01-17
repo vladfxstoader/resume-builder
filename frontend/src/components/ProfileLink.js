@@ -102,7 +102,7 @@ function ProfileLink() {
               <input type="text" defaultValue={localStorage.getItem("profileLink")} name="plink" required />
             </div>
             <div className="button-container">
-              <input type="submit" />
+              <input type="submit" value="Collect LinkedIn data"/>
             </div>
           </form>
           <br></br>
@@ -112,17 +112,21 @@ function ProfileLink() {
   return (
     <div className='homepage'>
     <div className="login-form">
-        <h1 className="title">Enter profile link</h1>
-        <h3>Please enter your LinkedIn profile URL, so that
-            <br></br>your information can be collected.</h3>
+        <h1 className="title-home">Enter profile link</h1>
+        <h3>Enter your LinkedIn profile URL below, <br></br>
+          so that your information can be collected.</h3>
         <br></br>
         <br></br>
         {renderForm}
+        <br></br>
+        <br></br>
         <AddProjects />
+        <br></br>
+        <br></br>
         <h3>You can choose one of the following templates: </h3>
-        <button onClick={handleClick1}>Template 1</button>
-        <button onClick={handleClick2}>Template 2</button>
-        <button onClick={handleClick3}>Template 3</button>
+        <button onClick={handleClick1}>1</button>
+        <button onClick={handleClick2}>2</button>
+        <button onClick={handleClick3}>3</button>
         {template1 && <FirstCVTemplate />}
         {template2 && <SecondCVTemplate />}
         {template3 && <ThirdCVTemplate />}

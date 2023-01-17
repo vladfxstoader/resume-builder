@@ -68,7 +68,7 @@ function Login() {
         </div>
         <br></br>
         <div className="button-container">
-          <input type="submit" />
+          <input type="submit"  value="Log in"/>
         </div>
       </form>
       <br></br>
@@ -81,14 +81,14 @@ function Login() {
   var flag = localStorage.getItem("isAuthenticated");
 
   return (
-    <div className='homepage'>
+    <div className='loginpage'>
       {flag == "true" ?
         <div className='homedescription'>
           <h1 className='desctext'>You are already logged in.</h1>
         </div>
         :
         <div className="login-form">
-          <h1 className="title">Log In</h1>
+          <h1 className="title-login">Log In</h1>
           {isSubmitted ? navigate("/") : renderForm}
         </div>
       }
