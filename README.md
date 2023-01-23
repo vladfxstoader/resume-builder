@@ -11,5 +11,22 @@ Project developed during the Software engineering course, taken in the 3rd year 
 - Vlad Toader
 
 ## Project description
-### LinkedIn Crawler 
-We plan to develop a LinkedIn crawler, that uses the information found on an user's LinkedIn profile to generate a resume. There will be multiple templates from which the user can choose, with multiple color schemes and fonts, and the user will be able to choose the template and what information to display from the one retrieved by the crawler.
+### LinkedIn Crawler - resume builder
+The application helps users build their resumes based on their LinkedIn profile information. After the user puts their LinkedIn profile link, they are able to choose between 3 resume templates and they can also add a 'Projects' section to their resume in which they can put their most relevant projects. This can be an useful feature for students who do not have work experience.
+
+## Technologies
+ASP .NET Core, React
+
+## How to run
+
+### Backend
+* Make sure that Visual Studio, SSMS and SQL Server Express are installed
+* Create a database for this project
+* Put the connection string in the user secrets
+* Update the database (`update-database`)
+* Run the application
+
+### Frontend
+* Make sure that npm and Visual Studio Code is installed
+* Open the terminal in the `frontend` folder and run `npm install`
+* `npm start` to start the frontend app
