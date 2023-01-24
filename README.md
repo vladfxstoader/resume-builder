@@ -14,6 +14,8 @@ Project developed during the Software engineering course, taken in the 3rd year 
 ### LinkedIn Crawler - resume builder
 The application helps users build their resumes based on their LinkedIn profile information. After the user puts their LinkedIn profile link, they are able to choose between 3 resume templates and they can also add a 'Projects' section to their resume in which they can put their most relevant projects. This can be an useful feature for students who do not have work experience.
 
+The full documentation can be found on the [Wiki](https://github.com/inginerie-software-22-23/proiect-inginerie-software-runtime-terror/wiki) page of the repository
+
 ## Technologies
 ASP .NET Core, React
 
