@@ -16,6 +16,8 @@ The application helps users build their resumes based on their LinkedIn profile 
 
 The full documentation can be found on the [Wiki](https://github.com/inginerie-software-22-23/proiect-inginerie-software-runtime-terror/wiki) page of the repository.
 
+[Here](https://www.youtube.com/watch?v=vIiO3x5Fgj4) you can find the demo of the application.
+
 ## Technologies
 ASP .NET Core, React
 
